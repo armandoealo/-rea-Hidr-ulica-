@@ -3,64 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esquema de Actividades</title>
+    <title>Presentación</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
             padding: 0;
-        }
-        h1 {
             text-align: center;
-        }
-        .schedule {
-            margin: 0 auto;
-            max-width: 800px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 12px;
-            border: 1px solid #ccc;
-            text-align: left;
-        }
-        th {
             background-color: #f4f4f4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
         }
     </style>
 </head>
 <body>
-    <h1>Esquema de Actividades</h1>
-    <div class="schedule">
-        <table>
-            <thead>
-                <tr>
-                    <th>Hora</th>
-                    <th>Actividad</th>
-                    <th>Descripción</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>08:00 - 09:00</td>
-                    <td>Registro</td>
-                    <td>Registro de participantes y bienvenida.</td>
-                </tr>
-                <tr>
-                    <td>09:00 - 10:00</td>
-                    <td>Conferencia 1</td>
-                    <td>Introducción al tema principal del evento.</td>
-                </tr>
-                <tr>
-                    <td>10:00 - 11:00</td>
-                    <td>Workshop</td>
-                    <td>Taller interactivo con los participantes.</td>
-                </tr>
-                <!-- Agrega más filas según sea necesario -->
-            </tbody>
-        </table>
-    </div>
+    <h1>Presentación</h1>
+    <!-- Asegúrate de reemplazar las rutas con las imágenes que exportaste -->
+    <img src="slide1.jpg" alt="Diapositiva 1">
+    <img src="slide2.jpg" alt="Diapositiva 2">
+    <img src="slide3.jpg" alt="Diapositiva 3">
+    <!-- Repite para todas las diapositivas -->
 </body>
 </html>
